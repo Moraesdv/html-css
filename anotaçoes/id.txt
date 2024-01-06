@@ -1,0 +1,12 @@
+para eu mudar uma coisa especifica em css , eu abro uma tag id , dentro da tag especifica que eu quero personalizar 
+
+E dentro do css eu abro essa tag: exemplo: h1#principal{}
+
+Em html é id = em css é #
+
+Em html é class em css é .
+
+um id vai identificar um elemento unico dentro da página atual. Essa identificcaçao vai nos permitir criar um estilo especial para um elemento isolado. Já im cass vai identificar uma classe à qual um ou mais elementos perteçam, compartilhando características em comum a todos os que façam parte desse grupo
+
+Em um mesmo documento html, só podemos usar um id para um único elementp,oque significa que nao podemos ter dois elementos com um mesmo id dentro da mesma página. porém, podemos atribuir um mesmo class para vários elementos que possuam essa mesma características.
+

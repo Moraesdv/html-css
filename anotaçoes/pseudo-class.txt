@@ -1,0 +1,2 @@
+div:hover 
+tag bem interessante que causa uma animaçao quando passo o mouse na imagem que configurei com a tag hover

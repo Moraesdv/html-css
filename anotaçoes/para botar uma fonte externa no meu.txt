@@ -1,0 +1,10 @@
+para botar uma fonte externa no meu site eu abaixo ela boto dentro da pasta do meu site . dentro do vs code em baixo do title dentro do style eu uso a tag @font-face , dentro de url eu boto entre ' o nome da fonte' format[];
+
+tipos de format[]
+-opentype [otf]
+-truetype [ttf]
+-embedded-opentype
+-truetype- aat [apple advanced typography]
+-svg
+ 
+qualquer duvida vou no exercicio ex18

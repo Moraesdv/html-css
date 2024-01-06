@@ -1,0 +1,16 @@
+border-radius, significa o quanto a borda via ficar redonda 
+
+box-shadow , signfica botar um sombreamento em volta do texto
+
+whidth , signifa a largura do texto
+
+padding, signifa da um espaçamento nas bordas do texto
+
+margin:auto , significa deixar o texto centralizado
+
+para deixar o titulo centralizado dentro do texto e a tag text-align:center;
+para deixar 
+
+para botar sombra no texto e , text-shadow
+
+para deixar as palavras alinhada e a tag ,text-align:justify

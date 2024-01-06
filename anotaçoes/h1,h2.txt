@@ -1,0 +1,18 @@
+
+medidas font-wheigth
+
+Pesos literais:ligther, normal , bold , bolder
+Existe variaçoes numericas tbm que vai de 100-900
+
+
+OBS: font-wheight:peso
+font-whidth:largura
+font-heigth:altura
+font-style: pode deixar o texto de varias formas como italico
+
+Obs:font-wheght: pode usar para deixar ela mais leve ou em mais negrito
+para deixar sublinhado e o text- decoration: underline;
+
+shorthand font: junta essas 4 font: font-wheight:peso , font-whidth:largura , font-style: , font-family , para funcionar tem que ser nessa ordem : font-style , font-wheight , font-size , font-family
+
+Para fazer isso eu abro uma font dento de h1 ou h2: e seleciono o style  exemplo italic , depois seleciono o Em , depois a font family exemplo: "Work Sans", sans serif

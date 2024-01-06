@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adaptaçoes de imagens</title>
+</head>
+<body>
+    <h1>imagens dinamicas</h1>
+    <p>tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente ou diminua o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-2.png" type="image/png">
+        <img src="imagens/foto-3.png" alt="imagem flexivel">
+        
+    </picture>
+            
+        
+
+    </picture>
+    <h1>reproduzindo audios</h1>
+    <p>vamos aprender a botar um audio no seu site</p>
+    <audio preload="metadata" autoplay controls loop >
+        <source src="midia/musica.mp3" type="audio/mpeg">
+        <source src="midia/musica.ogg" type="audio/ogg">
+        <source src="midia/musica.wav" type="audio/wav">
+        <p>infeslimente seu navegador não consegue reproduzir audio <a href="midia/musica.mp3">clique aqui para baixar o arquivo mp3</a></p>
+
+
+    </audio>
+    
+</body>
+</html>
