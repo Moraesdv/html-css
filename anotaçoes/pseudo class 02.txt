@@ -1,5 +1,0 @@
-Só para nao esquecer , para colocar uma imagem com link ou uma frase e so envelopar com a tag a
-
-Para deixar um link sem sublinhado e : text-decoration: none
-
-Html5: simbolos , site para botar simbolos no meu site
