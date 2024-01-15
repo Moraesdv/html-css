@@ -1,0 +1,65 @@
+@charset "UTF-8"
+
+ *{
+    margin: 0px;
+    padding: 0px;
+ }
+ 
+ :root { 
+    --cor0: #ebe5c5;
+    --cor01:#83e1ad;
+    --cor02:#3ddc84;
+   --cor03:#2fa866;
+    --cor04:#1a5c37;
+    --cor05:#063d1e;
+
+}
+body{
+    background-color: var(--cor0);
+}
+
+ header{
+    background-color: rgba(0, 0, 0, 0.314);
+    border-radius: 5px;
+
+ }
+ header>h1{
+    color: white;
+    text-align: center;
+    margin-bottom: 5px;
+    font-variant: small-caps;
+    
+ }
+
+ header>p{
+    color: white;
+    margin: auto;
+    font-variant: small-caps;
+    font-size: 1.5em;
+    max-width: 350px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+    
+    
+ }
+
+ header a{
+    color: var(--cor01);
+    text-decoration: none;
+ }
+ header a:hover{
+    color: var(--cor01);
+    text-decoration: underline;
+ }
+
+ nav a{
+    color: var(--cor03);
+    text-decoration: none;
+ }
+
+ main{
+    text-indent: 30px;
+ }
+    
