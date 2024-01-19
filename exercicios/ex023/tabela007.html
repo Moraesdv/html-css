@@ -5,9 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabelas responsivas</title>
     <style>
+        :root{
+            --cor01: yellow;
+            --cor02:red;
+        }
         body{
             font-family: Arial, Helvetica, sans-serif;
         }
+        header{
+            padding-top: 50px;
+            min-height: 150px;
+            background-image: linear-gradient(to bottom, var(--cor01), var(--cor02));
+            text-align: center;  
+         }
+
+         header h1{
+            color: white;
+            padding: 10px;
+            font-variant: small-caps;
+         }
+
+       main{
+        padding: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-indent: 1.2em;
+        
+       }
+
         table{
             
             border-collapse: collapse;
@@ -33,8 +57,12 @@
     </style>
 </head>
 <body>
-    <h1>tabelas em telas pequenas</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis dolorum corrupti fugiat fugit quis nisi at nesciunt, a hic consequuntur, quam dolore enim architecto, voluptas ducimus atque asperiores delectus commodi?</p>
+    <header>
+        <h1>tabelas em telas pequenas</h1>
+    </header>
+    <main>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis dolorum corrupti fugiat fugit quis nisi at nesciunt, a hic consequuntur, quam dolore enim architecto, voluptas ducimus atque asperiores delectus commodi?</p>
+    </main>
 
     <div id="container">
         <table>
