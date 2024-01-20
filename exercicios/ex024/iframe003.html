@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        iframe#tela{
+            width: 95vw;
+            border: 2px solid black;
+            height: 450px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eligendi accusantium facilis ullam earum impeditsed, adipisci officiis ea quae blanditiis magni sapiente, cum neque laboriosam maiores ipsa magnam itaque?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni culpa quis, dolore quae nostrum eius cupiditate fuga ipsam beatae veritatis labore in iste obcaecati praesentium ad voluptas sit dignissimos eaque.</p>
+    <ul>
+        <li><a href="pagina001.html" target="frame">Primeira página</a></li>
+        <li><a href="pag002.html" target="frame">Segunda página</a></li>
+        <li><a href="pag003.html" target="frame">Terceira página</a></li>
+    </ul>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magnam sit aliquam mollitia exercitationem saepe harum doloribus fugiat in quibusdam illum dolorum dignissimos nihil, delectus quae accusamus et, sint quasi. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus rem a est vitae animi placeat assumenda, vel reiciendis soluta, sint eligendi voluptatem quae quia fuga aliquid sequi repellat odit corrupti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex eveniet, optio ab vel aut perspiciatis quibusdam? Enim eligendi autem, perspiciatis, minus mollitia nulla omnis ullam, laborum tempore aliquam laudantium nostrum!</p>
+
+    <iframe srcdoc="<h1> Escolha uma das opções acima </h1><img src='imagem/imagem do desaifio.png'>" id="tela" name="frame">
+        Infelizmente seu navegador não tem compatibilidade com isso!
+    </iframe>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni harum fugiat fugit tenetur quisquam quas inventore iusto. Eaque adipisci labore repudiandae doloremque, accusamus facilis explicabo totam corporis aliquid sed officiis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint repudiandae quod, debitis suscipit eligendi ratione voluptas doloremque illum aliquid repellendus nisi voluptates, dignissimos magnam corrupti dolores, unde voluptatibus eos nulla?</p>
+    
+</body>
+</html>
