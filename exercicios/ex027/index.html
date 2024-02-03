@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float</title>
+    <style>
+
+        *{
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bolder;
+        }
+        .container{
+            border: 1px solid black;
+            overflow: auto;
+            
+            
+        }
+
+        .container img{
+            width: 250px;
+            height: 400px;
+            margin-right: 20px;
+            float: left;
+           
+        }
+
+        div>h1{
+            clear: both;
+            padding: 10px;
+            text-align: center;
+        }
+
+        #estilo{
+            padding: 20px;
+            text-align: justify;
+            text-indent: 10px;
+        }
+
+        ul{
+            background-color: black;
+            padding: 10px;
+            padding: 20px;
+        }
+
+        li{
+            display: inline-block;
+            
+        }
+
+        li>a{
+            color: white;
+            text-decoration: none;
+            padding: 20px;
+        }
+
+        li>a:hover{
+            background: #ccc;
+        }
+
+        .login{
+            float: right;
+        }
+
+        .login a:hover{
+            background:orangered;
+        }
+    </style>
+</head>
+<body>
+
+    <ul>
+        <li><a href="#">link</a></li>
+        <li><a href="#">link</a></li>
+        <li class="login"><a href="#">link</a></li>
+    </ul>
+    <div class="container">
+        <img src="imagens/imagem.jpeg" alt="Fundo preto">
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa aliquid placeat eius earum eligendi, provident possimus veritatis. Inventore fugiat adipisci officiis nisi consectetur maxime. Quibusdam aspernatur expedita consectetur dolore sed?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa aliquid placeat eius earum eligendi, provident possimus veritatis. Inventore fugiat adipisci officiis nisi consectetur maxime. Quibusdam aspernatur expedita consectetur dolore sed?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa aliquid placeat eius earum eligendi, provident possimus veritatis. Inventore fugiat adipisci officiis nisi consectetur maxime. Quibusdam aspernatur expedita consectetur dolore sed?</p>
+
+        <h1>Outro conteúdo</h1>
+        <p id="estilo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa aliquid placeat eius earum eligendi, provident possimus veritatis. Inventore fugiat adipisci officiis nisi consectetur maxime. Quibusdam aspernatur expedita consectetur dolore sed?</p>
+       
+    </div>
+</body>
+</html>
