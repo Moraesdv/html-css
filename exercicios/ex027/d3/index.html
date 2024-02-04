@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Efeito Dropdown</title>
+    <style>
+        ul{
+            background-color: black;
+            list-style-type: none;
+            padding: 0px;
+            margin: 0px;
+            overflow: hidden;
+        }
+
+        li{
+            float: left;
+        }
+
+        li a, .Dropdownbtn{
+            display: inline-block;
+            color: white;
+            padding: 14px 16px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        li a:hover,.Dropdown:hover .Dropdownbtn{
+            background-color: red;
+        }
+
+        li.Dropdown{
+            display: inline-block;
+        }
+
+        .Dropdown-content{
+            display: none;
+            position: absolute;
+            background-color: white;
+            width: 150px;
+        }
+
+        .Dropdown-content a{
+            color: black;
+            display: block;
+            text-align: left;
+            border: 1px solid rgb(207, 207, 207);
+        }
+
+        .Dropdown-content a:hover{
+            color: white;
+        }
+
+        .Dropdown:hover .Dropdown-content{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Como funciona o efeito Dropdown</h1>
+
+    <ul>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li class="Dropdown">
+            <a class="Dropdownbtn" href="#">Link</a>
+
+            <div class="Dropdown-content">
+                <a href="#">link</a>
+                <a href="#">link</a>
+                <a href="#">link</a>
+                <a href="#">link</a>
+            </div>
+        </li>
+    </ul>
+</body>
+</html>
