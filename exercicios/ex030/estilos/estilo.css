@@ -29,6 +29,7 @@
 
 #content{
     grid-area: content;
+    height: 50vh;
 }
 
 #footer{
