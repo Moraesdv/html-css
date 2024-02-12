@@ -1,0 +1,218 @@
+@charset "UTF-8";
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.main-login{
+    display: flex;
+    width: 100vw;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #201b2c;
+}
+
+.esquerda{
+    display: flex;
+    width: 50vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.esquerda>h1{
+   margin-top: 120px;
+    color: #00ff88;
+    margin-left: 18px;
+}
+
+.imagem{
+    width: 32vw;
+}
+
+.direita{
+    display: flex;
+    width: 50%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    display: flex;
+    width: 60%;
+    margin-top: 110px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #2f2841;
+    padding: 35px 30px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+.login>h1{
+    
+    color: #00ff88;
+    font-weight: 800;
+    margin: 0px;
+}
+
+.botao{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+.botao>input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    background: #514869;
+    color: #f0ffffde;
+    padding: 15px;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+}
+
+.botao>label{
+    color: white;
+    margin-bottom: 10px;
+}
+
+#bot{
+    width: 100%;
+    color: #00ff88;
+    border: none;
+    background-color: #544b6c71;
+    padding: 8px;
+    border-radius: 10px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #2b134b;
+    background: #00ff88;
+    padding: 16px;
+    margin-top: 5px;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
+}
+
+
+
+.botao > input::placeholder{
+    color: #f0ffff94;
+}
+
+
+
+#meu-github>img{
+    width: 30px;
+}
+
+footer{
+    width: 100vw;
+    height: 30vh;
+    text-align: center;
+    background-color: #201b2c;
+}
+
+#git{
+    width: 30px;
+  
+}
+
+.dv{
+    margin-right: 260px;
+    color: white;
+    padding: 20px;
+    
+    
+}
+
+.cred{
+    
+    color: white;
+    text-decoration: none;
+}
+
+.none{
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: #00ff889f;
+    font-weight: bold;
+}
+
+.video{
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: #00ff889f;
+    font-weight: bold;
+    margin-right: 50px;
+    
+}
+
+.none:hover{
+    background-color: #2fa865;
+    color: #063d1e;
+}
+
+
+
+#youtube{
+    width: 30px;
+    
+}
+
+
+@media only screen and (max-width:950px){
+    .login{
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .main-login{
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+      
+    }
+
+    .esquerda >h1{
+        display: none;
+    }
+
+    .esquerda{
+        width: 100%;
+        height: auto;
+    }
+
+    .direita{
+        width: 100%;
+        height: auto;
+    }
+
+   .imagem{
+    width: 50vw;
+   }
+    .login{
+        width: 90%;
+    }
+
+   footer{
+    display: none;
+   }
+}
