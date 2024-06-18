@@ -13,7 +13,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background-color: #18181b;
 }
@@ -22,12 +22,18 @@ body{
     display: flex;
     align-items: center;
     gap: 3.5rem;
+    
+   
 }
+
 
 .img img{
     width: 32rem;
 }
 
+.titulo{
+    margin-bottom: 10px;
+}
 .calc{
     display: flex;
     flex-direction: column;
@@ -37,4 +43,68 @@ body{
     background-color: #262626;
     border-radius: 8px;
 }
+.titulo{
+    border-bottom: solid 2px #0fd558e5 ;
+}
+.box{
+    height: 50px;
+    border: none;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+#peso{
+    background-color: #5e5e5ea2;
+    color: white;
+}
+
+#altura{
+    background-color: #5e5e5ea2;
+    color: white;
+}
+#calcular{
+    color: white;
+    background-color: #0fd558e5 ;
+    width: 100%;
+    height: 36px;
+}
+.res{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    border-top: 1px solid #ffffff34;
+    padding: 0.75rem 0;
+}
+.imc{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 2.25rem;
+}
+.bm{
+    font-size: 0.875rem;
+    color: #cbd5e1;
+}
+.descrição{
+    width: 15.5rem;
+}
+#saude{
+    border-top: 1px solid #ffffff34;
+    padding-top: 1.5rem;
+}
+#saude a {
+    color: #16a34a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6rem;
+    font: 0.875rem;
+    text-decoration: none;
+}
+#saude a:hover{
+    color: #cbd5e1;
+}
+.hidden{
+    display: none;
+}
+
 

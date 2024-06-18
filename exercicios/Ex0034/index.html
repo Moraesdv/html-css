@@ -25,7 +25,7 @@
                     <label for="peso">Peso em kg</label>
                     <div class="icon">
                         <i class="fa-solid fa-weight-hanging"></i>
-                        <input type="number" name="ipeso" id="peso" required>
+                        <input type="number" name="ipeso" id="peso">
                         <span>kg</span>
                     </div>
                 </div>
@@ -34,26 +34,26 @@
                     <label for="altura">Altura em metros</label>
                     <div class="icon">
                         <i class="fa-solid fa-ruler"></i>
-                        <input type="number" name="ialt" id="altura" required>
+                        <input type="number" name="ialt" id="altura">
                         <span>m</span>
                     </div>
                 </div>
 
-                <button id="calcular">Calcular</button>
+                <button  id="calcular"  onclick="calcular()">Calcular</button>
             </form>
 
-            <div class="inform">
+            <div class="hidden" id="inform">
                 <div class="res">
                     <div class="imc">
-                        <span class="value"></span>
-                        <span>Seu IMC</span>
+                        <span class="value">55</span>
+                        <span class="bm">Seu IMC</span>
                     </div>
                     <div class="descrição">
                         <span></span>
                     </div>
                 </div>
 
-                <div class="saude">
+                <div id="saude">
                     <a href="https://mundoeducacao.uol.com.br/saude-bem-estar/imc.htm">
                         Mais informações sobre o IMC
                         <i class="fa-solid fa-arrow-up-right-from-square"></i>
